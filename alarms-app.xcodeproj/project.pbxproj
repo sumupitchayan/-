@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29298718237C6DF0005142A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29298717237C6DF0005142A5 /* HomeViewController.swift */; };
+		2929871A237C70F3005142A5 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29298719237C70F3005142A5 /* AddViewController.swift */; };
+		2929871C237C7290005142A5 /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929871B237C7290005142A5 /* AlarmTableViewCell.swift */; };
 		29D3A99F237B06B400D524C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3A99E237B06B400D524C9 /* AppDelegate.swift */; };
 		29D3A9A1237B06B400D524C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D3A9A0237B06B400D524C9 /* LoginViewController.swift */; };
 		29D3A9A4237B06B400D524C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D3A9A2237B06B400D524C9 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29298717237C6DF0005142A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		29298719237C70F3005142A5 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		2929871B237C7290005142A5 /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
 		29D3A99B237B06B400D524C9 /* alarms-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "alarms-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D3A99E237B06B400D524C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29D3A9A0237B06B400D524C9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -101,7 +107,10 @@
 			children = (
 				29D3A99E237B06B400D524C9 /* AppDelegate.swift */,
 				29D3A9A0237B06B400D524C9 /* LoginViewController.swift */,
+				29298717237C6DF0005142A5 /* HomeViewController.swift */,
+				29298719237C70F3005142A5 /* AddViewController.swift */,
 				29D3A9A2237B06B400D524C9 /* Main.storyboard */,
+				2929871B237C7290005142A5 /* AlarmTableViewCell.swift */,
 				29D3A9A8237B06B600D524C9 /* Assets.xcassets */,
 				29D3A9AA237B06B600D524C9 /* LaunchScreen.storyboard */,
 				29D3A9AD237B06B600D524C9 /* Info.plist */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2929871A237C70F3005142A5 /* AddViewController.swift in Sources */,
 				29D3A9A1237B06B400D524C9 /* LoginViewController.swift in Sources */,
 				29D3A99F237B06B400D524C9 /* AppDelegate.swift in Sources */,
 				29D3A9A7237B06B400D524C9 /* alarms_app.xcdatamodeld in Sources */,
+				29298718237C6DF0005142A5 /* HomeViewController.swift in Sources */,
+				2929871C237C7290005142A5 /* AlarmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

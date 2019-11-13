@@ -24,6 +24,7 @@ class LoginViewController: UIViewController {
     @IBAction func loginButtonPressed(_ sender: Any) {
         if credentialsAreValid() {
             defaults.set(false, forKey: "loggedIn")
+            performSegue(withIdentifier: "loginToHome", sender: self)
         }
     }
     
